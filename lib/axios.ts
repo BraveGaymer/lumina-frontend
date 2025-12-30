@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const api = axios.create({
     // Asegúrate de que esta URL sea la de tu IP de AWS
-    baseURL: process.env.NEXT_PUBLIC_API_URL || 'http://13.58.196.224:8081/api',
+    baseURL: process.env.NEXT_PUBLIC_API_URL || 'http://18.117.216.0:8081/api',
 });
 
 // INTERCEPTOR PARA INYECTAR EL TOKEN
