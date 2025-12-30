@@ -130,7 +130,11 @@ export default function CoursePlayerPage() {
         const reqId = searchParams.get('materialId');
         if (reqId) {
             const target = flatList.find(i => i.id === reqId);
-            if (target) { setActiveItem(target); return; }
+            if (target && target.id !== activeItem?.id) { 
+                setActiveItem(target); 
+                setIsExamStarted(false); // Resetear examen si venimos de uno
+                return; 
+            }
         }
 
         // 2. Prioridad: Guardado local (localStorage)
