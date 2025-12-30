@@ -75,7 +75,7 @@ export default function Navbar() {
             <div className="container mx-auto px-4 h-16 flex items-center justify-between">
 
                 {/* LOGO */}
-                <Link href="/" className="flex items-center gap-2 group">
+                <Link href="/courses" className="flex items-center gap-2 group">
                     <div className="bg-slate-900 p-1.5 rounded-lg group-hover:bg-slate-800 transition-colors">
                         <Sparkles className="h-5 w-5 text-amber-400 fill-amber-400" />
                     </div>
