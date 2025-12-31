@@ -72,8 +72,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     // --- 3. MENÚ DE NAVEGACIÓN ROOT ---
     const navItems = [
         { name: "Root Dashboard", href: "/root", icon: LayoutDashboard },
-        { name: "Solicitudes Admin", href: "/root/pending", icon: ShieldAlert },
-        { name: "Crear Usuario", href: "/root/users/create", icon: UserPlus },
+        { name: "Solicitudes Admin", href: "/root/requests", icon: ShieldAlert },
+        { name: "Crear Usuario", href: "/root/create-user", icon: UserPlus },
     ];
 
     // --- 4. SPINNER DE CARGA ---
