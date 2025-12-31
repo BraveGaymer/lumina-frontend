@@ -160,7 +160,7 @@ export default function InstructorDashboard() {
                                 className="w-full justify-start h-12 text-slate-600 hover:text-slate-900 hover:bg-slate-50 border-slate-200"
                                 asChild
                             >
-                                <Link href="/instructor/reportes/sales">
+                                <Link href="/instructor/reportes/mis-ventas">
                                     <BarChart3 className="mr-3 h-5 w-5 text-slate-400" />
                                     Reporte de Ventas
                                 </Link>
@@ -171,7 +171,7 @@ export default function InstructorDashboard() {
                                 className="w-full justify-start h-12 text-slate-600 hover:text-slate-900 hover:bg-slate-50 border-slate-200"
                                 asChild
                             >
-                                <Link href="/instructor/reportes/students">
+                                <Link href="/instructor/reportes/estudiantes">
                                     <Users className="mr-3 h-5 w-5 text-slate-400" />
                                     Estudiantes Activos
                                 </Link>
