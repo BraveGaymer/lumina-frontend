@@ -29,7 +29,7 @@ export default function SuperRootHub() {
             title: "Solicitudes de Acceso",
             description: "Aprobar o rechazar nuevos candidatos a Administradores.",
             icon: <ShieldAlert className="h-8 w-8 text-red-500" />,
-            href: "/root/pending", // Enlace corregido para coincidir con tu archivo
+            href: "/root/requests", // Enlace corregido para coincidir con tu archivo
             borderColor: "hover:border-red-500/50",
             bgColor: "bg-red-500/10",
             active: true
@@ -38,7 +38,7 @@ export default function SuperRootHub() {
             title: "Creación Manual",
             description: "Dar de alta usuarios Administradores o Instructores directamente.",
             icon: <UserPlus className="h-8 w-8 text-blue-500" />,
-            href: "/root/users/create", // Enlace corregido para coincidir con tu archivo
+            href: "/root/create-user", // Enlace corregido para coincidir con tu archivo
             borderColor: "hover:border-blue-500/50",
             bgColor: "bg-blue-500/10",
             active: true
